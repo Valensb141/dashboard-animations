@@ -1,0 +1,156 @@
+/*Animación 1*/
+/* @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  #bar-chart, #lines-chart, #map, #sun-graph, #stock, #help, #time-last-day-btn {
+    opacity: 0;
+    animation: fadeInUp 1s ease-in-out forwards;
+  }
+  
+  #bar-chart { animation-delay: 0.5s; }
+  #lines-chart { animation-delay: 1s; }
+  #map { animation-delay: 1.5s; }
+  #sun-graph { animation-delay: 2s; }
+  #stock { animation-delay: 2.5s; }
+  #help { animation-delay: 3s; }
+  #time-last-day-btn { animation-delay: 3.5s; }
+  
+  @keyframes arrowBounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+  
+  [id^="flecha-"] {
+    opacity: 0;
+    animation: fadeInUp 0.5s ease-in-out forwards, arrowBounce 1s ease-in-out infinite;
+  }
+  
+  #flecha-1 { animation-delay: 0.5s; }
+  #flecha-2 { animation-delay: 1s; }
+  #flecha-3 { animation-delay: 1.5s; }
+  #flecha-4 { animation-delay: 2s; }
+  #flecha-5 { animation-delay: 2.5s; } */
+
+  /*Animación 2*/
+
+  @keyframes scaleUpRotate {
+    0% {
+      opacity: 0;
+      transform: scale(0.8) rotate(-10deg);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1) rotate(0);
+    }
+  }
+  
+  #bar-chart, #lines-chart, #map, #sun-graph, #stock, #help, #time-last-day-btn {
+    opacity: 0;
+    animation: scaleUpRotate 1s ease-in-out forwards;
+  }
+  
+  #bar-chart { animation-delay: 0.5s; }
+  #lines-chart { animation-delay: 1s; }
+  #map { animation-delay: 1.5s; }
+  #sun-graph { animation-delay: 2s; }
+  #stock { animation-delay: 2.5s; }
+  #help { animation-delay: 3s; }
+  #time-last-day-btn { animation-delay: 3.5s; }
+  
+  @keyframes moveArrow {
+    0% {
+      opacity: 0;
+      transform: translateY(0);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(-20px);
+    }
+  }
+  
+  #flecha-1 {
+    opacity: 0;
+    animation: moveArrow 1s ease-in-out forwards;
+    animation-delay: 0.5s;
+  }
+  
+  #flecha-2 {
+    opacity: 0;
+    animation: moveArrow 1s ease-in-out forwards;
+    animation-delay: 1s;
+  }
+  
+  #flecha-3 {
+    opacity: 0;
+    animation: moveArrow 1s ease-in-out forwards;
+    animation-delay: 1.5s;
+  }
+  
+  #flecha-4 {
+    opacity: 0;
+    animation: moveArrow 1s ease-in-out forwards;
+    animation-delay: 2s;
+  }
+  
+  #flecha-5 {
+    opacity: 0;
+    animation: moveArrow 1s ease-in-out forwards;
+    animation-delay: 2.5s;
+  }
+
+  /*Animación 3*/
+  @keyframes slideInLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(-50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  #bar-chart, #lines-chart, #map, #sun-graph, #stock, #help, #time-last-day-btn {
+    opacity: 0;
+    animation: slideInLeft 1s ease-in-out forwards;
+  }
+  
+  #bar-chart { animation-delay: 0.5s; }
+  #lines-chart { animation-delay: 1s; }
+  #map { animation-delay: 1.5s; }
+  #sun-graph { animation-delay: 2s; }
+  #stock { animation-delay: 2.5s; }
+  #help { animation-delay: 3s; }
+  #time-last-day-btn { animation-delay: 3.5s; }
+  
+  @keyframes blink {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+  }
+  
+  [id^="flecha-"] {
+    opacity: 0;
+    animation: slideInLeft 0.5s ease-in-out forwards, blink 1s step-start infinite;
+  }
+  
+  #flecha-1 { animation-delay: 0.5s; }
+  #flecha-2 { animation-delay: 1s; }
+  #flecha-3 { animation-delay: 1.5s; }
+  #flecha-4 { animation-delay: 2s; }
+  #flecha-5 { animation-delay: 2.5s; }
